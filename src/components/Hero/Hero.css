@@ -21,14 +21,20 @@
 .s-hero .left .subtitle img {
   margin-left: 4.5rem; 
 margin-right: 5px;
+position: relative;
+top: 40px;
 }
 
 .s-hero .left .subtitle span {
   font-size: 0.9rem; 
   color: #fff; 
+  position: relative;
+  top: 40px;
 }
 .s-hero .left h1 {
   font-size: 75px; 
+  position: relative;
+  top: -10px;
   margin-left: 4.5rem;  
   color: #fff; 
 }
@@ -40,6 +46,8 @@ margin-right: 5px;
   color: #fff; 
   margin-left: 4.5rem;  
   margin-bottom: 4rem; 
+  position: relative;
+  top: -55px;
 }
 
 
@@ -47,6 +55,8 @@ margin-right: 5px;
   display: flex;
   align-items: center;
   margin-top: 20px;
+  position: relative;
+  top: -75px;
 }
 
 .s-hero .value strong {
@@ -61,11 +71,20 @@ margin-right: 5px;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease; 
 }
 
+
+
+.s-hero .value a:hover {
+  background-color: #cc0000; 
+  transform: scale(1.05); 
+}
 .s-hero .right span {
   font-size: 18px;
-  margin-bottom: 50px;
+  position: relative;
+  top: 90px;
+  left: 10px
 }
 
 .s-hero .right button {
@@ -77,10 +96,14 @@ margin-right: 5px;
 }
 
 .s-hero .right button img.thumbnail {
+  display: flex;
   width: 400px;
   height: 200px;
   border: 2px solid #3265EA; 
-  margin-right: 3.1rem;  
+  margin-top: 10px;
+  margin-right: 4.4rem;  
+  position: relative;
+  top: 100px;
 }
 
 
@@ -103,6 +126,9 @@ margin-right: 5px;
 .s-hero .right .year-old img {
   margin-right: 1rem;
   margin-top: 1rem; 
+  position: relative;
+  top: 100px;
+  left: 10px;
 }
 
 .s-hero .right .year-old p {
@@ -111,4 +137,7 @@ margin-right: 5px;
   font-weight: 400;
   font-size: 16px;
   max-width: 27.4rem;
+  position: relative;
+  top: 90px;
+  left: 15px;
 }

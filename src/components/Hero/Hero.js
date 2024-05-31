@@ -29,7 +29,7 @@ function HeroSection() {
           </button>
           <div className="year-old">
             <img src={faixaEtaria} alt="Faixa etária" />
-            <p>Drogas Lícitas, Linguagem Imprópria, Violência Extrema</p>
+            <p><strong>Drogas Lícitas, Linguagem Imprópria, Violência Extrema</strong></p>
           </div>
         </div>
       </div>
